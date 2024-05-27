@@ -1,0 +1,122 @@
+body {
+  background-color: black;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100px;
+}
+
+.list1 {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.list2 {
+  color: white;
+}
+
+
+.btn-nav {
+  width: 90px;
+  height: 30px;
+  border: none;
+  background-color: rgba(18, 18, 19, 0.942);
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 2px solid white;
+}
+
+.btn-nav:hover {
+  background-color: white;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: rgb(251, 250, 249);
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 20px;
+  color: black;
+}
+
+.history {
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  text-align: justify;
+
+}
+
+#ah1 {
+  text-align: center;
+  font-size: larger;
+  color: white;
+
+}
+#ah2 {
+  text-align: center;
+  font-size: larger;
+  color:black;
+
+}
+
+.ah1 {
+  text-align: center;
+  color: white;
+}
+
+.locations {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#img1 {
+  color: white;
+}
+
+.contro {
+  color: black;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: justify;
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin: 10px;
+}
+.line,.copy{
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
