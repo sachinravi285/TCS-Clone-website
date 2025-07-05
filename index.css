@@ -1,0 +1,168 @@
+body {
+  background-color:black;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.list1{
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  color: white;
+}
+.list2{
+  color: white;
+}
+
+
+.btn-nav {
+  width: 90px;
+  height: 30px;
+  border: none;
+  background-color: rgba(18, 18, 19, 0.942);
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 2px solid white;
+}
+.btn-nav:hover{
+  background-color: white;
+  color: black;
+}
+.btn1-hero:hover{
+  background-color: white;
+  color: black;
+}
+.btn2-hero:hover{
+  background-color: white;
+  color: black;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  color: white;
+}
+.g-img {
+  width: 350px;
+}
+
+.hero1 {
+  margin-left: 50px;
+}
+
+.btn1-hero {
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color:white;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 2px solid white;
+}
+
+.btn2-hero {
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 2px solid white;
+}
+
+.btn-grp {
+  display: flex;
+  gap: 20px;
+}
+.li1:hover{
+  background-color: rgb(251, 250, 249);
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 20px;
+  color: black;
+}
+.box1{
+  width: 250px;
+  height: 350px;
+  display: flex;
+  border: 2px solid rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  color: white;
+}
+.fullbox{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.btn-box {
+  width: 90px;
+  height: 30px;
+  border: none;
+  background-color: rgba(18, 18, 19, 0.942);
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 2px solid white;
+  padding-top: 4px;
+}
+.footer{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin: 10px;
+}
+.line,.copy{
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.content{
+  background-color: white;
+  height: 400px;
+}
+.p-con{
+  text-align: center;
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+text-decoration: none;
+color: white;
+}
+.conlist{
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  text-align: center;
+}
+.con-list1,.con-list2{
+  list-style: none;
+}
+.licon{
+  padding-bottom: 20px;
+}
+.btn-box:hover{
+  background-color: white;
+  color: black;
+}
